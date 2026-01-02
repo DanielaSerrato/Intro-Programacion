@@ -1,5 +1,8 @@
 """Archivo asociado al notebook 06_funciones.ipynb.
 Incluye funciones básicas usadas como ejemplos en el curso.
+
+Concepto clave:
+- Una función es un bloque reutilizable que puede recibir datos y devolver resultados.
 """
 
 

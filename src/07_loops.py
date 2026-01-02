@@ -1,5 +1,8 @@
 """Archivo asociado al notebook 07_loops.ipynb.
 Incluye funciones relacionadas con ciclos.
+
+Concepto clave:
+- Un loop repite acciones; `for` recorre y `while` repite según condición.
 """
 
 

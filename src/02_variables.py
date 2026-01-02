@@ -1,5 +1,8 @@
 """Archivo asociado al notebook 02_variables.ipynb.
 Incluye ejemplos y funciones básicas que usan variables.
+
+Concepto clave:
+- Una variable es un nombre que guarda un valor para reutilizarlo.
 """
 
 

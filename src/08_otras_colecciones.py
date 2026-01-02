@@ -1,4 +1,7 @@
 """Funciones de apoyo para el capítulo 08: tuplas y sets.
+
+Concepto clave:
+- Las tuplas son inmutables; los sets eliminan duplicados.
 """
 
 

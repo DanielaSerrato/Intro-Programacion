@@ -85,6 +85,57 @@ intro-programacion/
 https://colab.research.google.com/github/TU_USUARIO_DE_GITHUB/intro-programacion/notebooks/NOMBRE_DEL_NOTEBOOK.ipynb
 ```
 
+## Ruta recomendada del curso en Google Colab (sin instalaciones)
+
+### ¿Por qué usar Google Colab?
+Google Colab te permite abrir y ejecutar los notebooks sin instalar nada. Solo necesitas una cuenta de Google y un navegador. Es ideal si estás comenzando y quieres concentrarte en aprender sin preocuparte por configurar tu computador.
+
+### Reglas generales de uso
+1. Sigue los notebooks en orden (00 → 10).
+2. Ejecuta las celdas de arriba hacia abajo, sin saltar.
+3. Haz una copia en tu Google Drive antes de escribir tus respuestas:
+   - En Colab: Archivo → Guardar una copia en Drive.
+4. No te preocupes si no entiendes todo de inmediato: la práctica hará que las ideas se vuelvan claras.
+
+### Ruta sugerida (en orden)
+
+1. **00 Introducción**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/00_introduccion.ipynb
+2. **01 Algoritmos**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/01_algoritmos.ipynb
+3. **02 Variables**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/02_variables.ipynb
+4. **03 Condicionales**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/03_condicionales.ipynb
+5. **04 Listas**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/04_listas.ipynb
+6. **05 Diccionarios**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/05_diccionarios.ipynb
+7. **06 Funciones**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/06_funciones.ipynb
+8. **07 Loops**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/07_loops.ipynb
+9. **08 Otras colecciones**  
+   https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/08_otras_colecciones.ipynb
+10. **09 Repaso**  
+    https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/09_repaso.ipynb
+11. **10 Proyecto final**  
+    https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/10_proyecto_final.ipynb
+
+### Texto breve estándar para colocar al inicio de TODOS los notebooks
+
+**Bienvenida**  
+¡Bienvenido/a a este capítulo! Puedes ejecutarlo completo en Google Colab sin instalar nada.  
+En este capítulo aprenderás el tema principal paso a paso y con ejemplos simples.  
+Piensa en esto como aprender a conducir: al principio todo parece nuevo, pero con práctica las decisiones se vuelven automáticas.  
+No necesitas entender todo de inmediato; lo importante es avanzar con calma y practicar.
+
+### Nota pedagógica especial para el proyecto final (capítulo 10)
+
+Este proyecto no necesita ser perfecto: su objetivo es integrar lo que ya aprendiste.  
+Puedes avanzar por partes y mejorar con el tiempo.  
+Lo importante es que funcione lo básico y entiendas cómo cada pieza se conecta con lo aprendido en el curso.
+
 ## Uso de los módulos en `src/`
 
 Cada notebook tiene un archivo asociado en `src/` con funciones de apoyo y ejemplos reutilizables.

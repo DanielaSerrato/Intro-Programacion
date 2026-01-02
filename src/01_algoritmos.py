@@ -1,6 +1,11 @@
 """Archivo asociado al notebook 01_algoritmos.ipynb.
-Contiene ejemplos básicos de algoritmos y traducción a código Python.
+Contiene ejemplos básicos de algoritmos y traducción a pasos claros.
 """
+
+
+def pasos_basicos():
+    """Devuelve una estructura simple de algoritmo (inicio, pasos, fin)."""
+    return ["Inicio", "Paso 1", "Paso 2", "Fin"]
 
 
 def saludo_personalizado(nombre):

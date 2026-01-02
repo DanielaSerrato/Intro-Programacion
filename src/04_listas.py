@@ -1,5 +1,8 @@
 """Archivo asociado al notebook 04_listas.ipynb.
 Incluye ejemplos y funciones útiles que manipulan listas.
+
+Concepto clave:
+- Una lista es una colección ordenada y mutable de elementos.
 """
 
 

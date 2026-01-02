@@ -1,5 +1,8 @@
 """Archivo asociado al notebook 03_condicionales.ipynb.
 Incluye ejemplos y funciones que utilizan condicionales.
+
+Concepto clave:
+- Un condicional permite decidir qué camino seguir según una condición.
 """
 
 
