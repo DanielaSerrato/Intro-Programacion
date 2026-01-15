@@ -131,8 +131,3 @@ Puedes importarlos desde los notebooks o desde scripts locales para practicar:
 ```python
 from src.05_diccionarios import obtener_claves
 ```
-
-## Generación de PDFs
-
-La hoja de estilos `styles/pdf_style.css` está preparada para exportar notebooks a PDF con un formato consistente.
-Para automatizar la generación, aplica este CSS al proceso de exportación (por ejemplo, usando nbconvert con HTML + CSS o una herramienta externa de conversión a PDF).
