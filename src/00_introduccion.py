@@ -1,12 +1,18 @@
 """Resumen del capítulo 00 - Introducción.
 
 Temas cubiertos:
-- Qué significa programar.
-- Qué es un algoritmo.
-- Cómo se ejecuta código en un entorno interactivo.
-- Qué hace print() para mostrar resultados.
-
-Ejemplos y funciones utilizadas:
-- print(): mostrar un mensaje en pantalla.
-- Operaciones aritméticas simples (por ejemplo, 7 + 5).
+- Qué es Python y para qué sirve.
+- Uso básico de Google Colab (Markdown vs código, ejecutar, guardar).
+- Primeros pasos con print().
+- Variables y tipos básicos.
+- Primera función con def y return.
 """
+
+
+def saludo_basico(nombre):
+    """Devuelve un saludo simple usando un f-string."""
+    return f"Hola, {nombre}!"
+
+
+if __name__ == "__main__":
+    print(saludo_basico("Estudiante"))

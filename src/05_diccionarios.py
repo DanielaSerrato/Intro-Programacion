@@ -1,15 +1,19 @@
 """Archivo asociado al notebook 05_diccionarios.ipynb.
-Incluye ejemplos y funciones que manipulan diccionarios.
 
-Concepto clave:
-- Un diccionario guarda pares clave–valor para acceder rápido a datos.
+Ejemplos básicos de diccionarios y acceso por clave.
 """
 
 
-def obtener_claves(dic):
-    return list(dic.keys())
+def crear_persona(nombre, edad):
+    """Crea un diccionario con datos de una persona."""
+    return {"nombre": nombre, "edad": edad}
 
 
-def actualizar_valor(dic, clave, valor):
-    dic[clave] = valor
-    return dic
+def agregar_ciudad(persona, ciudad):
+    """Agrega la ciudad al diccionario de persona."""
+    persona["ciudad"] = ciudad
+    return persona
+
+
+if __name__ == "__main__":
+    print(crear_persona("Ana", 20))

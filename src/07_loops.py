@@ -1,23 +1,26 @@
 """Archivo asociado al notebook 07_loops.ipynb.
-Incluye funciones relacionadas con ciclos.
 
-Concepto clave:
-- Un loop repite acciones; `for` recorre y `while` repite según condición.
+Ejemplos básicos de ciclos for y while.
 """
 
 
-def recorrer_lista(lista):
-    """Imprime cada elemento de una lista."""
-    for elemento in lista:
-        print(elemento)
+def sumar_lista(numeros):
+    """Suma los elementos de una lista usando un acumulador."""
+    total = 0
+    for numero in numeros:
+        total += numero
+    return total
 
 
-def sumar_lista(lista):
-    """Suma todos los elementos de la lista."""
-    return sum(lista)
+def contar_hasta(limite):
+    """Devuelve una lista con números del 1 al limite usando while."""
+    resultado = []
+    contador = 1
+    while contador <= limite:
+        resultado.append(contador)
+        contador += 1
+    return resultado
 
 
-def recorrer_diccionario(dic):
-    """Imprime claves y valores."""
-    for k, v in dic.items():
-        print(k, v)
+if __name__ == "__main__":
+    print(sumar_lista([1, 2, 3]))

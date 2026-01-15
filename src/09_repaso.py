@@ -1,15 +1,25 @@
-"""Funciones de práctica general antes del proyecto final.
+"""Archivo asociado al notebook 09_repaso.ipynb.
+
+Ejercicios de integración de conceptos del curso.
 """
 
 
-def sumar_lista(lista):
-    return sum(lista)
+def promedio(numeros):
+    """Calcula el promedio de una lista de números."""
+    total = 0
+    for numero in numeros:
+        total += numero
+    return total / len(numeros)
 
 
-def saludar(nombre):
-    return f"Hola {nombre}, bienvenido al repaso."
+def filtrar_mayores(personas):
+    """Devuelve nombres de personas con edad >= 18."""
+    mayores = []
+    for persona in personas:
+        if persona["edad"] >= 18:
+            mayores.append(persona["nombre"])
+    return mayores
 
 
-def contar_vocales(texto):
-    vocales = "aeiouáéíóúAEIOUÁÉÍÓÚ"
-    return sum(1 for c in texto if c in vocales)
+if __name__ == "__main__":
+    print(promedio([2, 4, 6]))

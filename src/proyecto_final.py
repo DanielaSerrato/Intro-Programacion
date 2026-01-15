@@ -1,33 +1,47 @@
 """Proyecto Final del curso: Sistema de Gestión de Usuarios.
+
+Este módulo contiene funciones básicas para registrar, listar, buscar y eliminar usuarios.
 """
 
 usuarios = []
 
 
 def registrar_usuario(nombre, edad, ciudad):
+    """Registra un usuario en la lista global y devuelve el diccionario creado."""
     usuario = {"nombre": nombre, "edad": edad, "ciudad": ciudad}
     usuarios.append(usuario)
     return usuario
 
 
-def mostrar_usuarios():
-    return usuarios
+def listar_usuarios():
+    """Devuelve una lista con los nombres de todos los usuarios."""
+    nombres = []
+    for usuario in usuarios:
+        nombres.append(usuario["nombre"])
+    return nombres
 
 
 def buscar_usuario(nombre):
-    for u in usuarios:
-        if u["nombre"].lower() == nombre.lower():
-            return u
+    """Busca un usuario por nombre (sin distinguir mayúsculas)."""
+    for usuario in usuarios:
+        if usuario["nombre"].lower() == nombre.lower():
+            return usuario
     return None
 
 
 def eliminar_usuario(nombre):
-    global usuarios
-    usuarios = [u for u in usuarios if u["nombre"].lower() != nombre.lower()]
-    return usuarios
+    """Elimina un usuario por nombre y devuelve True si se eliminó."""
+    indice = 0
+    while indice < len(usuarios):
+        if usuarios[indice]["nombre"].lower() == nombre.lower():
+            usuarios.pop(indice)
+            return True
+        indice += 1
+    return False
 
 
 def menu():
+    """Menú opcional en consola para interactuar con el sistema."""
     while True:
         print("\n— Menú —")
         print("1. Registrar usuario")
@@ -45,7 +59,7 @@ def menu():
             registrar_usuario(nombre, edad, ciudad)
 
         elif opcion == "2":
-            print(mostrar_usuarios())
+            print(listar_usuarios())
 
         elif opcion == "3":
             nombre = input("Nombre: ")
