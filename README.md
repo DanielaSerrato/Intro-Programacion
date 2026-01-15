@@ -122,19 +122,6 @@ Google Colab te permite abrir y ejecutar los notebooks sin instalar nada. Solo n
 11. **10 Proyecto final**  
     https://colab.research.google.com/github/DanielaSerrato/Intro-Programacion/blob/main/notebooks/10_proyecto_final.ipynb
 
-### Texto breve estándar para colocar al inicio de TODOS los notebooks
-
-**Bienvenida**  
-¡Bienvenido/a a este capítulo! Puedes ejecutarlo completo en Google Colab sin instalar nada.  
-En este capítulo aprenderás el tema principal paso a paso y con ejemplos simples.  
-Piensa en esto como aprender a conducir: al principio todo parece nuevo, pero con práctica las decisiones se vuelven automáticas.  
-No necesitas entender todo de inmediato; lo importante es avanzar con calma y practicar.
-
-### Nota pedagógica especial para el proyecto final (capítulo 10)
-
-Este proyecto no necesita ser perfecto: su objetivo es integrar lo que ya aprendiste.  
-Puedes avanzar por partes y mejorar con el tiempo.  
-Lo importante es que funcione lo básico y entiendas cómo cada pieza se conecta con lo aprendido en el curso.
 
 ## Uso de los módulos en `src/`
 
