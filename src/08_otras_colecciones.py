@@ -1,17 +1,18 @@
-"""Funciones de apoyo para el capítulo 08: tuplas y sets.
+"""Archivo asociado al notebook 08_otras_colecciones.ipynb.
 
-Concepto clave:
-- Las tuplas son inmutables; los sets eliminan duplicados.
+Ejemplos básicos de tuplas y sets.
 """
 
 
-def es_miembro(conjunto, elemento):
-    return elemento in conjunto
+def crear_tupla(nombre, edad, ciudad):
+    """Crea una tupla con tres datos."""
+    return (nombre, edad, ciudad)
 
 
-def contar_unicos(lista):
-    return len(set(lista))
+def eliminar_duplicados(lista):
+    """Devuelve un set con elementos únicos."""
+    return set(lista)
 
 
-def crear_coordenada(x, y):
-    return (x, y)
+if __name__ == "__main__":
+    print(crear_tupla("Ana", 20, "Cali"))

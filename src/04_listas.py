@@ -1,17 +1,19 @@
 """Archivo asociado al notebook 04_listas.ipynb.
-Incluye ejemplos y funciones útiles que manipulan listas.
 
-Concepto clave:
-- Una lista es una colección ordenada y mutable de elementos.
+Ejemplos básicos de creación y manipulación de listas.
 """
 
 
-def obtener_primero_y_ultimo(lista):
-    if not lista:
-        return None, None
-    return lista[0], lista[-1]
-
-
-def agregar_y_ordenar(lista, elemento):
+def agregar_elemento(lista, elemento):
+    """Agrega un elemento a la lista y devuelve la lista actualizada."""
     lista.append(elemento)
-    return sorted(lista)
+    return lista
+
+
+def obtener_primero(lista):
+    """Devuelve el primer elemento de la lista."""
+    return lista[0]
+
+
+if __name__ == "__main__":
+    print(agregar_elemento(["perro"], "gato"))

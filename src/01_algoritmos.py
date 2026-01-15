@@ -1,24 +1,22 @@
 """Archivo asociado al notebook 01_algoritmos.ipynb.
-Contiene ejemplos básicos de algoritmos y traducción a pasos claros.
+
+Contiene ejemplos básicos de algoritmos descritos en texto.
 """
 
 
-def pasos_basicos():
-    """Devuelve una estructura simple de algoritmo (inicio, pasos, fin)."""
-    return ["Inicio", "Paso 1", "Paso 2", "Fin"]
+def algoritmo_saludo():
+    """Devuelve pasos en texto para saludar a una persona."""
+    return """1. Pedir el nombre
+2. Guardar el nombre
+3. Mostrar el saludo"""
 
 
-def saludo_personalizado(nombre):
-    """Devuelve un saludo personalizado."""
-    return f"Hola, {nombre}. Bienvenido al curso."
+def algoritmo_sandwich():
+    """Devuelve pasos en texto para preparar un sándwich."""
+    return """1. Tomar pan
+2. Agregar relleno
+3. Cerrar el sándwich"""
 
 
-def preparar_te():
-    """Devuelve los pasos de un algoritmo para preparar té."""
-    return [
-        "Calentar agua",
-        "Colocar la bolsita en la taza",
-        "Verter el agua caliente",
-        "Esperar 3 minutos",
-        "Retirar bolsita y disfrutar",
-    ]
+if __name__ == "__main__":
+    print(algoritmo_saludo())

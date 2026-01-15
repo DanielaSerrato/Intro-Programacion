@@ -1,28 +1,22 @@
 """Archivo asociado al notebook 03_condicionales.ipynb.
-Incluye ejemplos y funciones que utilizan condicionales.
 
-Concepto clave:
-- Un condicional permite decidir qué camino seguir según una condición.
+Ejemplos de decisiones con if, elif y else.
 """
 
 
-def clasificar_edad(edad):
-    """Devuelve un mensaje según si la persona es mayor de edad."""
-    if edad >= 18:
-        return "Mayor de edad"
-    return "Menor de edad"
+def clasificar_numero(numero):
+    """Devuelve un mensaje indicando si el número es positivo, negativo o cero."""
+    if numero > 0:
+        return "El número es positivo"
+    if numero < 0:
+        return "El número es negativo"
+    return "El número es cero"
 
 
-def par_o_impar(numero):
-    """Devuelve si un número es par o impar."""
-    return "Par" if numero % 2 == 0 else "Impar"
+def es_par(numero):
+    """Devuelve True si el número es par."""
+    return numero % 2 == 0
 
 
-def clasificar_temperatura(temp):
-    """Clasifica temperatura en frío, templado o caliente."""
-    if temp < 15:
-        return "Frío"
-    elif temp <= 25:
-        return "Templado"
-    else:
-        return "Caliente"
+if __name__ == "__main__":
+    print(clasificar_numero(3))

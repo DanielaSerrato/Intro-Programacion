@@ -1,16 +1,18 @@
 """Archivo asociado al notebook 02_variables.ipynb.
-Incluye ejemplos y funciones básicas que usan variables.
 
-Concepto clave:
-- Una variable es un nombre que guarda un valor para reutilizarlo.
+Ejemplos de variables y tipos básicos.
 """
 
 
-def resumen_personal(nombre, edad, ciudad):
-    """Devuelve un texto descriptivo usando variables."""
+def crear_ficha(nombre, edad, ciudad):
+    """Devuelve una frase con datos básicos."""
     return f"{nombre} tiene {edad} años y vive en {ciudad}."
 
 
-def cambiar_estado(estado_actual):
-    """Invierte un valor booleano."""
-    return not estado_actual
+def incrementar_edad(edad):
+    """Suma 1 a la edad recibida."""
+    return edad + 1
+
+
+if __name__ == "__main__":
+    print(crear_ficha("Ana", 20, "Lima"))
